@@ -1,10 +1,14 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Brain-games"
 readme = "README.md"
 requires-python = ">=3.12"
+authors = [
+  { name = "Olzhas"}
+]
 dependencies = []
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
