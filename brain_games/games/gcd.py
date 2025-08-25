@@ -1,7 +1,9 @@
 import random
 import math
 
+
 TASK = "Find the greatest common divisor of given numbers."
+
 
 def generate_round():
     number1 = random.randint(1, 100)
