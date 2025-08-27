@@ -13,7 +13,7 @@ def is_prime(n):
 
 
 def generate_round():
-    number = random.randint(2, 100)
+    number = random.randint(2, 100) # NOSONAR
     correct_answer = "yes" if is_prime(number) else "no"
     question = str(number)
     return question, correct_answer

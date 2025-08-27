@@ -8,9 +8,9 @@ def generate_progression(start, step, length):
 
 
 def generate_round():
-    length = random.randint(5, 10)
-    start = random.randint(1, 20)
-    step = random.randint(2, 10)
+    length = random.randint(5, 10) # NOSONAR
+    start = random.randint(1, 20) # NOSONAR
+    step = random.randint(2, 10) # NOSONAR
 
     progression = generate_progression(start, step, length)
 
