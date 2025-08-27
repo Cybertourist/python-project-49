@@ -14,7 +14,7 @@ def generate_round():
 
     progression = generate_progression(start, step, length)
 
-    hidden_index = random.randint(0, length - 1)
+    hidden_index = random.randint(0, length - 1)  # NOSONAR
     correct_answer = str(progression[hidden_index])
 
     progression[hidden_index] = ".."
