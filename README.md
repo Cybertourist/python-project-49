@@ -46,4 +46,4 @@
 ```bash
 git clone https://github.com/Cybertourist/python-project-49.git
 cd python-project-49
-make install
+make install 
