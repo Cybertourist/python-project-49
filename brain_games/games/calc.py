@@ -13,7 +13,7 @@ operations = {
 def generate_round():
     number1 = random.randint(1, 20)  # NOSONAR
     number2 = random.randint(1, 20)  # NOSONAR
-    op_symbol = random.choice(list(operations.keys())) # NOSONAR
+    op_symbol = random.choice(list(operations.keys()))  # NOSONAR
     op_func = operations[op_symbol]
 
     question = f"{number1} {op_symbol} {number2}"

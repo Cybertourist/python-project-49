@@ -8,6 +8,6 @@ def is_even(number):
 
 
 def generate_round():
-    number = random.randint(1, 100) # NOSONAR
+    number = random.randint(1, 100)  # NOSONAR
     correct_answer = "yes" if is_even(number) else "no"
     return str(number), correct_answer
