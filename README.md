@@ -7,6 +7,7 @@
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=Cybertourist_python-project-49)
 
 ---
+
 ## Описание
 **Brain Games** — набор консольных игр для тренировки ума.  
 Игры задают вопросы, на которые нужно правильно ответить. Если трижды подряд отвечаешь верно — победа!  
@@ -39,6 +40,7 @@
    [![asciicast](https://asciinema.org/a/Ahuh27wqjtJmfmJbniVKibs9D.svg)](https://asciinema.org/a/Ahuh27wqjtJmfmJbniVKibs9D)
 
 ---
+
 ## Установка и запуск
 Клонировать проект и установить зависимости:
 ```bash
